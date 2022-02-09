@@ -1,0 +1,168 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header, 
+.footer {
+    background: #1f2937;
+    padding: 20px 150px 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.container {
+    width: 900px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0;font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    margin: 0;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+img {
+    max-width: 400px;
+}
+
+.cards img {
+    max-width: 200px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.bottom {
+    display: flex;
+    margin-top: 50px;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0 ;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+.s-one-title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight:bolder;
+    font-size: 36px;    
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+}
+
+.section-two {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
+    align-items: center;
+}
+
+.container-two p {
+    margin: 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;
+    margin: 0;
+}
+
+.thor {
+    font-weight: bold;
+    align-self: flex-end; 
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.notice {
+    background-color: #3882f6; 
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.notice-text {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.border {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    color:#f9faf8;
+    padding: 30px;
+}
